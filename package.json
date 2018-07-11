@@ -1,0 +1,21 @@
+{
+  "name": "mini-kinetics-200",
+  "version": "1.0.0",
+  "description": "This **subset** of [Kinetics dataset](https://deepmind.com/research/open-source/open-source-datasets/kinetics/) consists of the 200 categories with most training examples; for each category, we randomly sample 400 examples from the training set, and 25 examples from the validation set, resulting in 80K training examples and 5K validation examples in total.",
+  "scripts": {
+    "build": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jevancc/Mini-Kinetics-200.git"
+  },
+  "author": "JevanChan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jevancc/Mini-Kinetics-200/issues"
+  },
+  "homepage": "https://github.com/jevancc/Mini-Kinetics-200#readme",
+  "dependencies": {
+    "csv-writer": "^1.0.0"
+  }
+}
